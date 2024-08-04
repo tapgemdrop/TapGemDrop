@@ -1,0 +1,180 @@
+.mycontainer{
+    height: 100vh;
+    width: 100%;
+    overflow: hidden
+}
+.gemContainer{
+z-index: -100;
+
+position: absolute;
+}
+.gemwrapper{
+        display: flex;   
+
+}
+
+.gem {
+width: 25px;
+height: 26px;
+left: 100px;
+border-radius: 5px;
+border-top: 13px solid transparent;
+border-right: 13px solid transparent;
+border-bottom: 13px solid transparent;
+border-left: 13px solid transparent;
+}
+
+#power .gem {
+top: 27vh;
+left: 6vw;
+background-color: #80477E;
+position: relative;
+border-top-color: #915490;
+border-right-color: #6a3769;
+border-bottom-color: #915490;
+border-left-color: #6a3769;
+}
+
+#space .gem {
+    left: 30vw;
+background-color: #0266A6;
+position: relative;
+border-top-color: #0275bf;
+border-right-color: #03578e;
+border-bottom-color: #0275bf;
+border-left-color: #03578e;
+}
+
+#time .gem {
+    top: 50vh;
+background-color: #1DAB69;
+position: relative;
+border-top-color: #20cc7c;
+border-right-color: #19925a;
+border-bottom-color: #20cc7c;
+border-left-color: #19925a;
+}
+#soul{
+    left: 10vw;
+}
+#soul .gem {
+    top: 40vh;
+    left: 80vw;
+background-color: #EB7037;
+position: relative;
+border-top-color: #ff7f43;
+border-right-color: #d06634;
+border-bottom-color: #ff7f43;
+border-left-color: #d06634;
+}
+#mind{
+    left: 35vw;
+}
+#mind .gem {
+left: 25px;
+top: 70vh;
+background-color: #F6C44A;
+position: relative;
+border-top-color: #f8cd63;
+border-right-color: #d1a63d;
+border-bottom-color: #f8cd63;
+border-left-color: #d1a63d;
+}
+
+#reality .gem {
+    left: 75vw;
+background-color: #DA1536;
+position: relative;
+border-top-color: #f0183d;
+border-right-color: #c41431;
+border-bottom-color: #f0183d;
+border-left-color: #c41431;
+}
+
+#custom .gem {
+    left: 120px;
+    top: 500px;
+    background-color: #02dbb7;
+    position: relative;
+    border-top-color: hsl(172, 88%, 52%);
+border-right-color: hsl(162, 81%, 42%);
+border-bottom-color: hsl(152, 88%, 52%);
+border-left-color: hsl(167, 69%, 49%);
+}
+
+#custom1 .gem {
+    left: 50vw;
+    top: 300px;
+background-color: hsl(170, 63%, 46%);
+position: relative;
+border-top-color: hwb(172 29% 35%);
+border-right-color: hsl(162, 30%, 37%);
+border-bottom-color: hsl(152, 39%, 42%);
+border-left-color: hsl(167, 48%, 48%);
+}
+
+#custom2 .gem {
+    left: 80vw;
+    top: 400px;
+background-color: hsl(137, 29%, 36%);
+/* background-color: #DA1536; */
+position: relative;
+border-top-color: hwb(172 7% 59%);
+border-right-color: hsl(161, 36%, 22%);
+border-bottom-color: hsl(152, 39%, 42%);
+border-left-color: hsl(167, 71%, 19%);
+}
+#custom3 .gem {
+background-color: hsl(137, 14%, 57%);
+/* background-color: #DA1536; */
+position: relative;
+top: 150px;
+left: 50vw;
+border-top-color: hwb(172 52% 29%);
+border-right-color: hsl(162, 17%, 57%);
+border-bottom-color: hsl(152, 22%, 59%);
+border-left-color: hsl(167, 19%, 50%);
+}
+#custom4 .gem {
+    top: 200px;
+left: 70vw;
+background-color: hsl(36, 71%, 57%);
+/* background-color: #DA1536; */
+position: relative;
+border-top-color: hsl(36, 59%, 60%);
+border-right-color: hsl(36, 79%, 64%);
+border-bottom-color:hsl(36, 46%, 45%);
+border-left-color: hsl(36, 68%, 60%);
+}
+#custom5 .gem {
+    top: -500px;
+left: 70vw;
+background-color: hsl(36, 71%, 57%);
+/* background-color: #DA1536; */
+position: relative;
+border-top-color: hsl(36, 59%, 60%);
+border-right-color: hsl(36, 79%, 64%);
+border-bottom-color:hsl(36, 46%, 45%);
+border-left-color: hsl(36, 68%, 60%);
+}
+#custom6 .gem {
+    top: -550px;
+left: 7vw;
+background-color: hwb(53 26% 24%);
+position: relative;
+border-top-color: hsl(61, 57%, 45%);
+border-right-color: hwb(49 20% 23%);
+border-bottom-color:hsl(43, 71%, 61%);
+border-left-color: hwb(54 34% 18%);
+}
+#custom7 .gem {
+    top: -20vh;
+left: 7vw;
+background-color: rgb(194, 66, 66);
+position: relative;
+border-top-color: #c02222;
+border-right-color: #c41818;
+border-bottom-color:#a82222;
+border-left-color: #d42e2e;
+}
+
